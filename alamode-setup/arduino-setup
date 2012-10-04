@@ -1,0 +1,14 @@
+#!/bin/bash
+# this version only sets up for arduino Uno. It does not load
+# alamode specific version of avrdude or disable logging, getty, etc.
+#cp avrdude /usr/bin/avrdude
+#cp avrdude /usr/share/arduino/hardware/tools
+#cp avrdude.conf  /usr/share/arduino/hardware/tools
+#cp boards.txt  /usr/share/arduino/hardware/arduino
+#cp cmdline.txt /boot
+#cp inittab /etc
+cp 80-alamode.rules /etc/udev/rules.d
+#chown root /usr/bin/avrdude /usr/share/arduino/hardware/tools/avrdude
+#chgrp root /usr/bin/avrdude /usr/share/arduino/hardware/tools/avrdude
+#chmod a+s /usr/bin/avrdude /usr/share/arduino/hardware/tools/avrdude
+
