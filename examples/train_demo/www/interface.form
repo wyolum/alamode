@@ -1,0 +1,81 @@
+<form>      <table>
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top; text-align: center;"><img
+                style=" width: 300px; height: 97px;" alt="WyoLum"
+                src="images/WyoLum_v6.1.png"><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top; text-align: center;"><span
+                style="font-family: Helvetica,Arial,sans-serif;
+                font-weight: bold;">aLaMode Demo</span><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top; text-align: center;"> <button
+                name="SPEED" type="submit" value="4"> 4 </button> <button
+                name="SPEED" type="submit" value="5"> 5 </button> <button
+                name="SPEED" type="submit" value="6"> 6 </button> <button
+                name="SPEED" type="submit" value="7"> 7 </button> <button
+                name="SPEED" type="submit" value="8"> 8 </button> <button
+                name="SPEED" type="submit" value="9"> 9 </button> </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+          </tr>
+          <tr>
+            <td> <br>
+            </td>
+            <td> <button name="GO" type="submit" value="REVERSE"><img
+                  src="images/but_left.png" height="300" width="300"> </button>
+            </td>
+            <td style="text-align: center;"><button name="GO"
+                type="submit" value="STOP"><img
+                  src="images/but_stop.png" height="300" width="300"> </button>
+            </td>
+            <td><button name="GO" type="submit" value="GO"> <img
+                  src="images/but_right.png" vertical-align:="" top;"=""
+                  height="300" width="300&gt; &lt;/button&gt;&lt;/td&gt;
+                  &lt;/tr&gt; &lt;tr&gt; &lt;td style="><br>
+              </button></td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+            <td style="vertical-align: top;"><br>
+            </td>
+          </tr>
+        </tbody>
+      </form>
