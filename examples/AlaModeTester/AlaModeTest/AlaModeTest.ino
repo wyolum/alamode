@@ -4,7 +4,7 @@
 const int WID = 42;
 const int DS3231_ADDR = 104;
 const int N_DATA_BYTE = 32;
-const int BAUD = 115200;
+const int BAUD = 9600;
 const int CHIPSELECT = 10;
 uint8_t data[N_DATA_BYTE];
 uint8_t address;
