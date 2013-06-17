@@ -71,7 +71,7 @@ def checkRTC():
         rtc.setTime(now)
         date2 = rtc.getTime()
         out = now.year == date2.year
-        print 'checkRCT() date:', date2
+        print 'checkRTC() date:', date2
     return out
 
 def checkI2C():
@@ -81,7 +81,7 @@ def checkI2C():
     data_out = range(n_byte);
     
     alamode.writeList(ping_addr, data_out)
-    data_in = alamode.readList(ping_addr, n_byte + ping_addr)[ping_addr:] # crazy hack becuase I can't get it to start reading from ping_addr
+    data_in = alamode.readList(ping_addr, n_byte + ping_addr)[ping_addr:] # crazy hack because I can't get it to start reading from ping_addr
     for i in range(n_byte):
         if data_in[i] != data_out[i]:
             print 'data_out', data_out
