@@ -4,6 +4,9 @@ cp avrdude /usr/bin/avrdude
 cp avrdude /usr/share/arduino/hardware/tools
 cp avrdude.conf  /usr/share/arduino/hardware/tools
 cp boards.txt  /usr/share/arduino/hardware/arduino
+cp /boot/cmdline.txt /boot/cmdline.txt.bak
+root=$(sed 's/^.*root=\([^[:space:]]*\).*$/\1/' < /boot/cmdline.txt)
+sed -i "s-\(root=\)[^[:space:]]*-\1$root-" cmdline.txt
 cp cmdline.txt /boot
 cp inittab /etc
 cp 80-alamode.rules /etc/udev/rules.d
