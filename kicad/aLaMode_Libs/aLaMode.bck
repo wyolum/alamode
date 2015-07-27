@@ -1,0 +1,50 @@
+EESchema-DOCLIB  Version 2.0  Date: 6/22/2012 4:32:10 PM
+#
+$CMP CONN_8
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP LM358
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP LM358N
+D Dual Op amp (low power)
+K ampliop
+F ns/lm158.pdf
+$ENDCMP
+#
+$CMP LMC6062
+D Dual Op amp (low power)
+K ampliop
+F op_amps/lmc6062.pdf
+$ENDCMP
+#
+$CMP LMC6082
+D Dual Op amp (low power)
+K ampliop
+F op_amps/lmc6082.pdf
+$ENDCMP
+#
+$CMP MOS_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET_P
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP TL072
+D Dual Op amp (low power)
+K ampliop
+$ENDCMP
+#
+$CMP TL082
+D Dual Op amp (Cmos)
+K ampliop
+$ENDCMP
+#
+#End Doc Library

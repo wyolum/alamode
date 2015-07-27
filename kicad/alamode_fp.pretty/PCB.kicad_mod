@@ -1,0 +1,23 @@
+(module PCB (layer F.Cu) (tedit 501374AF)
+  (attr smd)
+  (fp_text reference PCB1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.127)))
+  )
+  (fp_text value PCB (at 0 1.27) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.127)))
+  )
+  (fp_line (start 0 0) (end 0.508 0) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0 0) (end -0.508 0) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0 0) (end 0 0.508) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0 0) (end 0 -0.508) (layer F.SilkS) (width 0.127))
+  (model "aLaMode_Libs\\3D Modules\\aLaMode_PCB.wrl"
+    (at (xyz 0 0 -0.03))
+    (scale (xyz 1 1 0.9))
+    (rotate (xyz 0 0 0))
+  )
+  (model "aLaMode_Libs/3D Modules/R_pi.wrl"
+    (at (xyz -0.465 0 -1.3))
+    (scale (xyz 0.99 1 0.95))
+    (rotate (xyz -90 0 0))
+  )
+)

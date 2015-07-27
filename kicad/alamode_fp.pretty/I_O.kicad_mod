@@ -1,0 +1,10 @@
+(module I_O (layer F.Cu) (tedit 55B60304)
+  (attr smd)
+  (fp_text reference I_O (at 0 -0.508) (layer F.SilkS) hide
+    (effects (font (size 0.254 0.254) (thickness 0.0254)))
+  )
+  (fp_text value B* (at 0 0.508) (layer F.SilkS) hide
+    (effects (font (size 0.254 0.254) (thickness 0.0254)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.016 1.016) (drill 0.635) (layers *.Cu *.Mask F.SilkS))
+)

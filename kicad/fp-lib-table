@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name aLaMode_v3)(type Legacy)(uri "$(KIPRJMOD)/aLaMode_Libs/aLaMode_v3.mod")(options "")(descr ""))
+  (lib (name alamode_fp)(type KiCad)(uri "$(KIPRJMOD)/alamode_fp.pretty")(options "")(descr ""))
+)

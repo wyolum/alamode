@@ -1,0 +1,14 @@
+(module DIP (layer F.Cu) (tedit 50137428)
+  (attr smd)
+  (fp_text reference DIP1 (at 0 -1.0795) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.127)))
+  )
+  (fp_text value DIP (at 0 1.2065) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.127)))
+  )
+  (model "aLaMode_Libs/3D Modules/soquete_28_300.wrl"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
