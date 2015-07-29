@@ -1,0 +1,45 @@
+### Module positions - created on Tue Jul 28 16:42:16 2015 ###
+### Printed by Pcbnew version kicad (2015-07-01 BZR 5850)-product
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C2       100n             c_0805              2.1150    -1.9875      90.0    top
+C3       2u2 Tant         c_0805              1.5875    -2.2525     180.0    top
+C4       100n             c_0805              1.5875    -2.3525     180.0    top
+C5       2u2              c_0805              1.5875    -1.9875       0.0    top
+C6       100u,25V         C_ELCO_SMD          1.4125    -2.5425      90.0    top
+C7       100n             c_0805              3.4875    -1.4450      90.0    top
+C8       47u,10V          C_ELCO_SMD          2.4825    -2.9525     270.0    top
+C14      100n             c_0805              2.0550    -1.6250     270.0    top
+C15      1n               c_0805              1.1925    -2.5825     270.0    top
+C16      10n              c_0805              1.7400    -2.1925      90.0    top
+D1       5V0              led_0805            2.5175    -1.9875     270.0    top
+D2       3V3              led_0805            2.6175    -1.9875     270.0    top
+D3       RB886G           d_VMD2              3.7825    -1.6875     270.0    top
+D4       RB886G           d_VMD2              3.7025    -1.6875     270.0    top
+D5       MBRM110LT1G      do_457              1.6650    -2.6075      90.0    top
+D13      BLINK            led_0805            2.3225    -1.9875      90.0    top
+F1       nanoSMDC110F     f_1206              1.1575    -3.1075       0.0    top
+F2       nanoSMDC110F     f_1206              2.1725    -2.4475      90.0    top
+IC1      ATMEGA328-PU     DIP-28__300_ELL     3.1900    -2.4475     180.0    top
+P1       BCM2835_GPIO     Header_GPIO         1.6700    -1.1400       0.0    top
+P16      5V_LINK          Header_U6OE_SMT     1.2950    -2.0175     270.0    top
+Q1       FDN340P          SOT23-3             1.7450    -2.0050     180.0    top
+R3       10k              r_0805              2.0550    -1.7900     270.0    top
+R4       10k              r_0805              2.0550    -1.4575     270.0    top
+R5       1k5              r_0805              2.4200    -1.9875      90.0    top
+R6       10k              r_0805              1.8375    -1.3150       0.0    top
+R7       10k              r_0805              2.3225    -1.7900     270.0    top
+R8       1k5              r_0805              2.7175    -1.9875      90.0    top
+R10      10k              r_0805              2.0875    -2.1925      90.0    top
+R11      10k              r_0805              2.1850    -2.1925     270.0    top
+R12      1k               r_0805              2.2200    -1.9875      90.0    top
+R14      0E               r_0805              1.1900    -2.3000     270.0    top
+R15      8k2              r_0805              3.7275    -1.2250     180.0    top
+R16      16k              r_0805              3.8800    -1.2250     180.0    top
+SD1      SD_CARD_MICRO    SD_Micro            1.6100    -1.5225     180.0    top
+SW1      RST              SW_SMD              2.2425    -1.5450     270.0    top
+U1       LP2985-33DBVR    SOT23-5             1.5750    -2.1150     270.0    top
+U2       74HC125          SO14E               1.8375    -1.5725     270.0    top
+U5       LM358N           SO8E                1.9250    -2.1200       0.0    top
+## End

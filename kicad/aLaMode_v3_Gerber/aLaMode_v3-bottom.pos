@@ -1,0 +1,23 @@
+### Module positions - created on Tue Jul 28 16:42:16 2015 ###
+### Printed by Pcbnew version kicad (2015-07-01 BZR 5850)-product
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+BT1      BATT_RTC         CR1632_2            2.2600    -1.8950      90.0    bottom
+C1       100n             c_0805              3.2000    -2.4300       0.0    bottom
+C9       100n             c_0805              1.4700    -1.9925       0.0    bottom
+C10      22p              c_0805              2.9850    -1.9675     270.0    bottom
+C11      22p              c_0805              2.8800    -1.9675     270.0    bottom
+C12      100n             c_0805              1.1425    -1.6300     180.0    bottom
+C13      100n             c_0805              1.1425    -1.3250     180.0    bottom
+D7       SMBJ5.0CA-TR     diode-DO214AA       1.1575    -3.1075       0.0    bottom
+D8       MBRM110LT1G      do_457              2.5300    -2.9500     180.0    bottom
+P12      UUSB_B           USB_B_Micro         1.1625    -2.7000       0.0    bottom
+R1       10k              r_0805              4.1075    -2.6075      90.0    bottom
+R2       10k              r_0805              4.0075    -2.6075      90.0    bottom
+R9       10k              r_0805              1.6400    -2.6700       0.0    bottom
+R13      10k              r_0805              1.2450    -1.9025     180.0    bottom
+U4       DS3231N          DS3231              1.4375    -2.3125     180.0    bottom
+U6       TXS0108          tssop-20            1.3875    -1.5200       0.0    bottom
+X1       16MHz            Xtal_SMD2           2.9325    -2.1325     180.0    bottom
+## End
