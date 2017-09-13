@@ -1,0 +1,15 @@
+#!/bin/bash
+# ttyAMA0 is now serial0 in debian stretch.
+cp avrdude /usr/bin/avrdude
+cp avrdude /usr/share/arduino/hardware/tools
+cp avrdude.conf  /usr/share/arduino/hardware/tools
+cp boards.txt  /usr/share/arduino/hardware/arduino
+sed -i'bk' -e's/console=serial0,115200.//'   /boot/cmdline.txt
+#disabled by default in stretch
+#systemctl stop serial-getty@ttAMA0.service
+#systemctl disable serial-getty@ttyAMA0.service
+cp 80-alamode.rules /etc/udev/rules.d
+chown root /usr/bin/avrdude /usr/share/arduino/hardware/tools/avrdude
+chgrp root /usr/bin/avrdude /usr/share/arduino/hardware/tools/avrdude
+chmod a+s /usr/bin/avrdude /usr/share/arduino/hardware/tools/avrdude
+
