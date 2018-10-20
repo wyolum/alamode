@@ -3,7 +3,7 @@
 cp avrdude /usr/bin/avrdude
 cp avrdude /usr/share/arduino/hardware/tools
 cp avrdude.conf  /usr/share/arduino/hardware/tools
-cp boards.txt  /usr/share/arduino/hardware/arduino
+cat boards.txt >> /usr/share/arduino/hardware/arduino
 sed -i'bk' -e's/console=serial0,115200.//'   /boot/cmdline.txt
 #disabled by default in stretch
 #systemctl stop serial-getty@ttAMA0.service

@@ -3,7 +3,7 @@
 cp avrdude /usr/bin/avrdude
 cp avrdude /usr/share/arduino/hardware/tools
 cp avrdude.conf  /usr/share/arduino/hardware/tools
-cp boards.txt  /usr/share/arduino/hardware/arduino
+cat boards.txt >> /usr/share/arduino/hardware/arduino
 sed -i'bk' -e's/console=ttyAMA0,115200.//' -e's/kgdboc=tty.*00.//'  /boot/cmdline.txt
 sed -i'bk' -e'/T0.*ttyAMA0.*vt100/s/T0/#T0/' /etc/inittab
 rm /etc/inittabbk
